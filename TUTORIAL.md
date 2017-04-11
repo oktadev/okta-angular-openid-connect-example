@@ -687,7 +687,7 @@ To fix, add a `name` attribute to all the address fields. For example:
 
 Now values should display in all fields and `name` should be required.
 
-![Edit form with names and validation](ssrc/assets/images/edit-form-names.png)
+![Edit form with names and validation](src/assets/images/edit-form-names.png)
 
 With Angular 2, this is all you'll need to do. However, with Angular 4+, you need to a little more work to stop the form from submitting.
 
