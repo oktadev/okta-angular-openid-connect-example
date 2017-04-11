@@ -966,6 +966,6 @@ You should be able to sign in using the form, using one of your app's registered
 
 ## Angular + Okta
 
-If everything works - congrats! If you encountered issues, please post a question to Stack Overflow with an http://stackoverflow.com/questions/tagged/okta[okta tag], or hit me up on Twitter https://twitter.com/mraible[@mraible].
+If everything works - congrats! If you encountered issues, please post a question to Stack Overflow with an [okta tag](http://stackoverflow.com/questions/tagged/okta), or hit me up on Twitter [@mraible](https://twitter.com/mraible).
 
-You can find a completed version of the application created in this blog post [on GitHub](TODO). In a future post, I'll show you how you can use tokens to connect to a Spring Boot API that's protected by Spring Security.
+You can find a completed version of the application created in this blog post [on GitHub](https://github.com/oktadeveloper/okta-angular-openid-connect-example). In a future post, I'll show you how you can use tokens to connect to a Spring Boot API that's protected by Spring Security.
