@@ -693,18 +693,18 @@ With Angular 2, this is all you'll need to do. However, with Angular 4+, you nee
 
 * To display HTML5 validation messages, add the `ngNativeValidate` directive to the `<form>` tag.
 * If you want to provide your own validation messages:
-** Add `#editForm="ngForm"` to the `<form>` element.
-** Add `#name="ngModel"` to the `<input id="name">` element.
-** Add `[disabled]="!editForm.form.valid"` to the *Save* button.
-** Add the following under the `name` field to display a validation error.
+  * Add `#editForm="ngForm"` to the `<form>` element.
+  * Add `#name="ngModel"` to the `<input id="name">` element.
+  * Add `[disabled]="!editForm.form.valid"` to the *Save* button.
+  * Add the following under the `name` field to display a validation error.
 
-```html
-<div [hidden]="name.valid || name.pristine" style="color: red">
-  Name is required
-</div>
-```
+    ```html
+    <div [hidden]="name.valid || name.pristine" style="color: red">
+      Name is required
+    </div>
+    ```
 
-To learn more about forms and validation, see https://angular.io/docs/ts/latest/guide/forms.html[Angular forms documentation].
+To learn more about forms and validation, see [Angular forms documentation](https://angular.io/docs/ts/latest/guide/forms.html).
 
 <a name="create-open-id-connect-app"></a>
 ## Create an OpenID Connect App in Okta
