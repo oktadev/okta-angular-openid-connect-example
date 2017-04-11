@@ -12,7 +12,7 @@ In this example, you’ll build a simple web application with Angular CLI, a too
 * [Node.js](https://nodejs.org) and npm installed. I recommend using [nvm](https://github.com/creationix/nvm).
 * [Angular CLI](https://cli.angular.io/) installed. If you don’t have Angular CLI installed, install it using `npm install -g @angular/cli`.
 
-TIP: If you'd like to get right to adding authentication, you can use clone my `ng-demo` project, then skip to the [Create an OpenID Connect App in Okta](#create-open-id-connect-app) section.
+TIP: If you'd like to get right to adding authentication, you can clone my `ng-demo` project, then skip to the [Create an OpenID Connect App in Okta](#create-open-id-connect-app) section.
 
 ```bash
 git clone https://github.com/mraible/ng-demo.git
