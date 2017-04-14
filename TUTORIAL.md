@@ -133,7 +133,7 @@ Open `src/app/search/search.component.html` and replace its default HTML with th
 <pre>{{searchResults | json}}</pre>
 ```
 
-The https://angular.io/docs/ts/latest/guide/router.html[Router documentation] for Angular provides the information you need to setup a route to the `SearchComponent` you just generated. Here's a quick summary:
+The [Router documentation](https://angular.io/docs/ts/latest/guide/router.html) for Angular provides the information you need to setup a route to the `SearchComponent` you just generated. Here's a quick summary:
 
 In `src/app/app.module.ts`, add an `appRoutes` constant and import it in `@NgModule`:
 
@@ -277,7 +277,7 @@ export class Person {
     this.address = obj && obj.address || null;
   }
 }
-```s
+```
 
 To make these classes available for consumption by your components, edit `src/app/shared/index.ts` and add the following:
 
@@ -285,7 +285,7 @@ To make these classes available for consumption by your components, edit `src/ap
 export * from './search/search.service';
 ```
 
-NOTE: If you're wondering why you should use `index.ts`, see http://stackoverflow.com/questions/37564906/what-are-all-the-index-ts-used-for[this Stack Overflow question].
+NOTE: If you're wondering why you should use `index.ts`, see [this Stack Overflow question](http://stackoverflow.com/questions/37564906/what-are-all-the-index-ts-used-for).
 
 In `search.component.ts`, add imports for these classes.
 
@@ -709,7 +709,7 @@ To learn more about forms and validation, see [Angular forms documentation](http
 <a name="create-open-id-connect-app"></a>
 ## Create an OpenID Connect App in Okta
 
-OpenID Connect is built on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user and, as well as to obtain their basic profile information. To learn more, see [http://openid.net/connect/](http://openid.net/connect/).
+OpenID Connect is built on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user and, as well as to obtain their basic profile information. To learn more, see [https://openid.net/connect/](https://openid.net/connect/).
 
 To integrate [Okta](http://developer.okta.com) for user authentication, you'll first need to [register](https://www.okta.com/developer/signup/)and create an OpenID Connect application.
 
