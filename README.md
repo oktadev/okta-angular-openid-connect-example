@@ -10,7 +10,7 @@ OpenID Connect is built on top of the OAuth 2.0 protocol. It allows clients to v
 
 To integrate [Okta](http://developer.okta.com) for user authentication, you'll first need to [register](https://www.okta.com/developer/signup/) and create an OpenID Connect application.
 
-Login to your Okta account, or create one if you don’t have one. Navigate to **Admin > Add Applications** and click on the **Create New App** button. Select **Single Page App (SPA)** for the Platform and **OpenID Connect** for the sign on method. Click the **Create** button and give your application a name. On the next screen, add `http://localhost:4200` as a Redirect URI and click *Finish**. You should see settings like the following.
+Login to your Okta account, or create one if you don’t have one. Navigate to **Admin > Add Applications** and click on the **Create New App** button. Select **Single Page App (SPA)** for the Platform and **OpenID Connect** for the sign on method. Click the **Create** button and give your application a name. On the next screen, add `http://localhost:4200` as a Redirect URI and click **Finish**. You should see settings like the following.
 
 ![OIDC App Settings](src/assets/images/oidc-settings.png)
 
