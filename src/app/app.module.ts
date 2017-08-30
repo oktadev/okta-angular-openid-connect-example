@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { EditComponent } from './edit/edit.component';
 import { Routes, RouterModule } from '@angular/router';
+import { SearchService, AuthGuard, OktaAuthWrapper } from './shared';
 import { OAuthModule } from 'angular-oauth2-oidc';
 import { HomeComponent } from './home/home.component';
-import { AuthGuard } from './shared/auth/auth.guard.service';
 
 const appRoutes: Routes = [
   { path: 'search', component: SearchComponent, canActivate: [AuthGuard] },
@@ -33,7 +33,11 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     OAuthModule.forRoot()
   ],
-  providers: [AuthGuard],
+  providers: [
+    AuthGuard,
+    SearchService,
+    OktaAuthWrapper
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
