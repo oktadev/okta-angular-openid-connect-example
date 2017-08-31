@@ -1,6 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
+
+import { AppComponent } from './app.component';
 import { OAuthService, UrlHelperService } from 'angular-oauth2-oidc';
 import { BaseRequestOptions, ConnectionBackend, Http } from '@angular/http';
 import { MockBackend } from '@angular/http/testing';
@@ -8,7 +9,9 @@ import { MockBackend } from '@angular/http/testing';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AppComponent],
+      declarations: [
+        AppComponent
+      ],
       imports: [RouterTestingModule],
       providers: [OAuthService, UrlHelperService, {
         provide: Http, useFactory: (backend: ConnectionBackend, defaultOptions: BaseRequestOptions) => {
@@ -33,10 +36,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('app');
   }));
 
-  it('should render title in a h1 tag', async(() => {
+  it('should render title in a .navbar-brand class', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to app!');
+    expect(compiled.querySelector('.navbar-brand').textContent).toContain('Welcome to app!');
   }));
 });
