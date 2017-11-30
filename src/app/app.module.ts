@@ -5,10 +5,10 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { Routes, RouterModule } from '@angular/router';
 import { SearchService, AuthGuard, OktaAuthWrapper } from './shared';
-import { HttpModule } from '@angular/http';
 import { EditComponent } from './edit/edit.component';
 import { OAuthModule } from 'angular-oauth2-oidc';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes = [
   {path: 'search', component: SearchComponent, canActivate: [AuthGuard]},
@@ -29,7 +29,7 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     OAuthModule.forRoot()
   ],
   providers: [

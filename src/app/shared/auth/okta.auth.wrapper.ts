@@ -1,7 +1,6 @@
 import { OAuthService } from 'angular-oauth2-oidc';
 import { Injectable } from '@angular/core';
-
-declare const OktaAuth: any;
+import * as OktaAuth from '@okta/okta-auth-js';
 
 @Injectable()
 export class OktaAuthWrapper {
