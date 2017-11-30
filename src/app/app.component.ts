@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private oauthService: OAuthService) {
     this.oauthService.redirectUri = window.location.origin;
-    this.oauthService.clientId = 'MjlYvTtFW26gOoOAHKOz';
+    this.oauthService.clientId = '0oacybtd068HHoLtQ0h7';
     this.oauthService.scope = 'openid profile email';
     this.oauthService.issuer = 'https://dev-158606.oktapreview.com';
     this.oauthService.tokenValidationHandler = new JwksValidationHandler();
