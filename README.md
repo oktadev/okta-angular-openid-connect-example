@@ -19,8 +19,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To install this example application, run the following commands:
 
 ```bash
-git clone git@github.com:oktadeveloper/okta-angular-sign-in-widget-example.git
-cd okta-angular-sign-in-widget-example
+git clone git@github.com:oktadeveloper/okta-angular-openid-connect-example.git
+cd okta-angular-openid-connect-example
 yarn && yarn start
 ```
 
