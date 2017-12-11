@@ -13,7 +13,7 @@ export class AppComponent {
     this.oauthService.redirectUri = window.location.origin;
     this.oauthService.clientId = 'MjlYvTtFW26gOoOAHKOz';
     this.oauthService.scope = 'openid profile email';
-    this.oauthService.issuer = 'https://dev-158606.oktapreview.com';
+    this.oauthService.issuer = 'https://dev-158606.oktapreview.com/oauth2/default';
     this.oauthService.tokenValidationHandler = new JwksValidationHandler();
 
     // Load Discovery Document and then try to login the user
