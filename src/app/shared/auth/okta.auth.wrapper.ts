@@ -9,7 +9,8 @@ export class OktaAuthWrapper {
 
   constructor(private oauthService: OAuthService) {
     this.authClient = new OktaAuth({
-      url: this.oauthService.issuer
+      url: 'https://dev-158606.oktapreview.com',
+      issuer: 'default'
     });
   }
 
