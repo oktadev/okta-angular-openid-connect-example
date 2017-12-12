@@ -10,8 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 
 * [Getting Started](#getting-started)
-* [Help](#help)
 * [Links](#links)
+* [Help](#help)
 * [License](#license)
 
 ## Getting Started
@@ -68,13 +68,13 @@ After making these changes, you should be able to log in with your credentials a
 
 ## Links
 
-This example uses the following libraries provided by [Manfred Steyer](https://github.com/manfredsteyer):
-
-* [angular-oauth2-oidc](https://github.com/manfredsteyer/angular-oauth2-oidc)
-
 This example uses the following libraries provided by Okta:
 
 * [Okta Auth SDK](https://github.com/okta/okta-auth-js)
+
+It also uses the following library provided by [Manfred Steyer](https://github.com/manfredsteyer):
+
+* [angular-oauth2-oidc](https://github.com/manfredsteyer/angular-oauth2-oidc)
 
 ## Help
 
