@@ -19,7 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 To install this example application, run the following commands:
 
 ```bash
-git clone git@github.com:oktadeveloper/okta-angular-openid-connect-example.git
+git clone https://github.com/oktadeveloper/okta-angular-openid-connect-example.git
 cd okta-angular-openid-connect-example
 yarn && yarn start
 ```
