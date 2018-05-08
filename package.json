@@ -1,6 +1,6 @@
 {
   "name": "okta-angular-openid-connect-example",
-  "author": "Matt Raible <mraible@gmail.com>",
+  "author": "Matt Raible <matt.raible@okta.com>",
   "version": "4.0.0",
   "license": "Apache 2.0",
   "scripts": {
