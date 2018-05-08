@@ -5,7 +5,7 @@ This example app shows how to use [angular-oauth2-oidc](https://github.com/manfr
 
 Please read [Angular Authentication with OpenID Connect and Okta in 20 Minutes](http://developer.okta.com/blog/2017/04/17/angular-authentication-with-oidc) to learn how to create this application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 
