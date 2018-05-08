@@ -60,9 +60,9 @@ constructor(private oauthService: OAuthService) {
 }
 ```
 
-**NOTE:** The value of `{yourOktaDomain}` should be something like `dev-123456.oktapreview.com`. Make sure you don't include `-admin` in the value!
+**NOTE:** The value of `{yourOktaDomain}` should be something like `dev-123456.oktapreview`. Make sure you don't include `-admin` in the value!
 
-After making these changes, you should be able to start the app (using `ng serve) and log in with your credentials at `http://localhost:4200`.
+After making these changes, you should be able to start the app (using `ng serve`) and log in with your credentials at `http://localhost:4200`.
 
 ## Links
 
@@ -76,7 +76,7 @@ It also uses the following library provided by [Manfred Steyer](https://github.c
 
 ## Help
 
-Please post any questions as comments on the [blog post](http://developer.okta.com/blog/2017/04/17/angular-authentication-with-oidc), or visit our [Okta Developer Forums](https://devforum.okta.com/). You can also email developers@okta.com if would like to create a support ticket. You can also hit me up on Twitter [@mraible](https://twitter.com/mraible).
+Please post any questions as comments on the [blog post](http://developer.okta.com/blog/2017/04/17/angular-authentication-with-oidc), or visit our [Okta Developer Forums](https://devforum.okta.com/). You can also email developers@okta.com if would like to create a support ticket.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
