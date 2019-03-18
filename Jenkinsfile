@@ -14,6 +14,12 @@ node {
     stage('npm install') {
         sh "npm install"
     }
+    stage ('npm install angular'){
+      sh "npm install -g @angular/cli@latest"
+   }
+   stage ('run angular project'){
+      sh "npm run ng build"
+   }
 
     stage('unit tests') {
         sh "ng test"
